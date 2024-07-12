@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { EmployeeSalaryCalculatorComponent } from './components/employee-salary-calculator/employee-salary-calculator.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [EmployeeSalaryCalculatorComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css', ]
 })
 export class AppComponent {
-  title = 'pagos-empleados';
+  title = 'Calculadora de Salario de Empleados';
 }
